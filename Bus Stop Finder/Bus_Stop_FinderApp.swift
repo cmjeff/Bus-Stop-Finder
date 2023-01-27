@@ -11,7 +11,7 @@ import SwiftUI
 struct Bus_Stop_FinderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

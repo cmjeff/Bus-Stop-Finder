@@ -11,6 +11,17 @@
 		CEDE98202983D75100B59B05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE981F2983D75100B59B05 /* ContentView.swift */; };
 		CEDE98222983D75200B59B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDE98212983D75200B59B05 /* Assets.xcassets */; };
 		CEDE98252983D75200B59B05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDE98242983D75200B59B05 /* Preview Assets.xcassets */; };
+		CEDE982E2983D82C00B59B05 /* BusMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE982D2983D82C00B59B05 /* BusMapViewRepresentable.swift */; };
+		CEDE98302983D86900B59B05 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE982F2983D86900B59B05 /* HomeView.swift */; };
+		CEDE98322983D8BC00B59B05 /* MapActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE98312983D8BC00B59B05 /* MapActionButton.swift */; };
+		CEDE98352983D94F00B59B05 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE98342983D94F00B59B05 /* LocationManager.swift */; };
+		CEDE983A2983DA0A00B59B05 /* BusSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE98392983DA0A00B59B05 /* BusSearchResults.swift */; };
+		CEDE983C2983DA3400B59B05 /* BusPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE983B2983DA3400B59B05 /* BusPopUp.swift */; };
+		CEDE983E2983DA4F00B59B05 /* LocationActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE983D2983DA4F00B59B05 /* LocationActivationView.swift */; };
+		CEDE98402983DA6E00B59B05 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE983F2983DA6E00B59B05 /* LocationSearchView.swift */; };
+		CEDE98422983DAAA00B59B05 /* ScheduleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE98412983DAAA00B59B05 /* ScheduleModel.swift */; };
+		CEDE98442983DABF00B59B05 /* BusTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE98432983DABF00B59B05 /* BusTimeModel.swift */; };
+		CEDE98462983DADF00B59B05 /* BusStopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE98452983DADF00B59B05 /* BusStopModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		CEDE981F2983D75100B59B05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEDE98212983D75200B59B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDE98242983D75200B59B05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDE982D2983D82C00B59B05 /* BusMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusMapViewRepresentable.swift; sourceTree = "<group>"; };
+		CEDE982F2983D86900B59B05 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CEDE98312983D8BC00B59B05 /* MapActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapActionButton.swift; sourceTree = "<group>"; };
+		CEDE98342983D94F00B59B05 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CEDE98392983DA0A00B59B05 /* BusSearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusSearchResults.swift; sourceTree = "<group>"; };
+		CEDE983B2983DA3400B59B05 /* BusPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusPopUp.swift; sourceTree = "<group>"; };
+		CEDE983D2983DA4F00B59B05 /* LocationActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationActivationView.swift; sourceTree = "<group>"; };
+		CEDE983F2983DA6E00B59B05 /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		CEDE98412983DAAA00B59B05 /* ScheduleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModel.swift; sourceTree = "<group>"; };
+		CEDE98432983DABF00B59B05 /* BusTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTimeModel.swift; sourceTree = "<group>"; };
+		CEDE98452983DADF00B59B05 /* BusStopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopModel.swift; sourceTree = "<group>"; };
+		CEDE98472983DD8D00B59B05 /* Bus-Stop-Finder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Bus-Stop-Finder-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,9 @@
 		CEDE981C2983D75100B59B05 /* Bus Stop Finder */ = {
 			isa = PBXGroup;
 			children = (
+				CEDE98472983DD8D00B59B05 /* Bus-Stop-Finder-Info.plist */,
+				CEDE98332983D93900B59B05 /* Manager */,
+				CEDE982B2983D7C800B59B05 /* Core */,
 				CEDE981D2983D75100B59B05 /* Bus_Stop_FinderApp.swift */,
 				CEDE981F2983D75100B59B05 /* ContentView.swift */,
 				CEDE98212983D75200B59B05 /* Assets.xcassets */,
@@ -65,6 +91,63 @@
 				CEDE98242983D75200B59B05 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDE982B2983D7C800B59B05 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE98362983D9C900B59B05 /* LocationSearch */,
+				CEDE982C2983D7E700B59B05 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CEDE982C2983D7E700B59B05 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE982D2983D82C00B59B05 /* BusMapViewRepresentable.swift */,
+				CEDE982F2983D86900B59B05 /* HomeView.swift */,
+				CEDE98312983D8BC00B59B05 /* MapActionButton.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CEDE98332983D93900B59B05 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE98342983D94F00B59B05 /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CEDE98362983D9C900B59B05 /* LocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE98382983D9E700B59B05 /* ViewModels */,
+				CEDE98372983D9D800B59B05 /* View */,
+			);
+			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		CEDE98372983D9D800B59B05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE98392983DA0A00B59B05 /* BusSearchResults.swift */,
+				CEDE983B2983DA3400B59B05 /* BusPopUp.swift */,
+				CEDE983D2983DA4F00B59B05 /* LocationActivationView.swift */,
+				CEDE983F2983DA6E00B59B05 /* LocationSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDE98382983D9E700B59B05 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE98412983DAAA00B59B05 /* ScheduleModel.swift */,
+				CEDE98432983DABF00B59B05 /* BusTimeModel.swift */,
+				CEDE98452983DADF00B59B05 /* BusStopModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +220,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDE982E2983D82C00B59B05 /* BusMapViewRepresentable.swift in Sources */,
+				CEDE98302983D86900B59B05 /* HomeView.swift in Sources */,
+				CEDE98352983D94F00B59B05 /* LocationManager.swift in Sources */,
+				CEDE98442983DABF00B59B05 /* BusTimeModel.swift in Sources */,
+				CEDE983A2983DA0A00B59B05 /* BusSearchResults.swift in Sources */,
 				CEDE98202983D75100B59B05 /* ContentView.swift in Sources */,
+				CEDE98462983DADF00B59B05 /* BusStopModel.swift in Sources */,
+				CEDE98402983DA6E00B59B05 /* LocationSearchView.swift in Sources */,
+				CEDE983E2983DA4F00B59B05 /* LocationActivationView.swift in Sources */,
 				CEDE981E2983D75100B59B05 /* Bus_Stop_FinderApp.swift in Sources */,
+				CEDE98322983D8BC00B59B05 /* MapActionButton.swift in Sources */,
+				CEDE983C2983DA3400B59B05 /* BusPopUp.swift in Sources */,
+				CEDE98422983DAAA00B59B05 /* ScheduleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +364,8 @@
 				DEVELOPMENT_TEAM = KNGCP4F926;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Bus-Stop-Finder-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allowBusStopFinder to find bus stops within 1000 meters of you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +394,8 @@
 				DEVELOPMENT_TEAM = KNGCP4F926;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Bus-Stop-Finder-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allowBusStopFinder to find bus stops within 1000 meters of you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
