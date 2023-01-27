@@ -22,6 +22,9 @@ struct HomeView: View {
                 
                 if showLocationSearchView{
                     LocationSearchView(BusStopResults: $BusStopResults, isAnnotationSelected: $isAnnotationSelected, selectedAnnotation: $selectedAnnotation)
+                        .onAppear{
+                            isAnnotationSelected = false
+                        }
                 } else{
                     LocationSearchActivationView()
                         .padding(.vertical, 72)
@@ -29,6 +32,9 @@ struct HomeView: View {
                             withAnimation(.spring()){
                                 showLocationSearchView.toggle()
                             }
+                        }
+                        .onAppear{
+                            isAnnotationSelected = false
                         }
                 }
                 MapViewActionButton(showLocationSearchView: $showLocationSearchView)
