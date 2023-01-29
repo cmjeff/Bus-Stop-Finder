@@ -11,6 +11,7 @@ import SwiftUI
 struct BusMapViewRepresentable: UIViewRepresentable{
     let mapView = MKMapView()
     let locationManager = LocationManager()
+    var firstUpdate = true
     @Binding var results: [BusStopModel]
     @Binding var isAnnotationSelected:Bool
     @Binding var selectedAnnotation: MKPointAnnotation
@@ -37,7 +38,7 @@ struct BusMapViewRepresentable: UIViewRepresentable{
 
 extension BusMapViewRepresentable{
     class MapCoordinator: NSObject, MKMapViewDelegate{
-        let parent:BusMapViewRepresentable
+        var parent:BusMapViewRepresentable
         
         init(parent: BusMapViewRepresentable) {
             self.parent = parent
@@ -45,16 +46,19 @@ extension BusMapViewRepresentable{
         }
         
         func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
-            let region = MKCoordinateRegion(
-                center: CLLocationCoordinate2D(
-                    latitude: userLocation.coordinate.latitude,
-                    longitude: userLocation.coordinate.longitude),
-                span: MKCoordinateSpan(
-                    latitudeDelta: 0.005,
-                    longitudeDelta: 0.005)
-            )
-            createBusStopList(userLocation: userLocation)
-            parent.mapView.setRegion(region, animated: true)
+            if (parent.firstUpdate){
+                let region = MKCoordinateRegion(
+                    center: CLLocationCoordinate2D(
+                        latitude: userLocation.coordinate.latitude,
+                        longitude: userLocation.coordinate.longitude),
+                    span: MKCoordinateSpan(
+                        latitudeDelta: 0.005,
+                        longitudeDelta: 0.005)
+                )
+                createBusStopList(userLocation: userLocation)
+                parent.mapView.setRegion(region, animated: true)
+                parent.firstUpdate = false
+            }
         }
         
         // MARK: Helpers
